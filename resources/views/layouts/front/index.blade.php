@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="{{asset("front/assets/css/slick.css")}} ">
     <link rel="stylesheet" href="{{asset("front/assets/css/nice-select.css")}} ">
     <link rel="stylesheet" href="{{asset("front/assets/css/style.css")}} ">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('front/assets/img/icon/favicon.png') }}">
+
+
     @stack('styles')
 
 </head>
@@ -29,7 +32,7 @@
     <main>
         @yield('content')
     </main>
-    @include('partials._footer')
+    {{-- @include('partials._footer') --}}
 
     <div id="back-top">
         <a class="wrapper" title="Go to Top" href="#">

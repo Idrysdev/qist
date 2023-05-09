@@ -1147,7 +1147,7 @@ hr {
 }
 
 .slider-height {
-    height: 950px;
+    height: 610px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover
@@ -1155,7 +1155,7 @@ hr {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .slider-height {
-        height: 700px
+        height: 500px
     }
 }
 
@@ -1209,8 +1209,8 @@ hr {
 }
 
 .slider-bg1 {
-    background-image: url(../img/hero/h1_hero.png)
-    /* background-image: url(../img/hero/h1_hero1.jpg) */
+    /* background-image: url(../img/hero/h1_hero.png) */
+    background-image: url(../img/hero/image1.jpg)
 }
 
 .slider-bg2 {
@@ -1243,7 +1243,7 @@ hr {
 .slider-area .hero-caption h1 {
     font-size: 100px;
     font-weight: 700;
-    margin-bottom: 64px;
+    margin-bottom: 5px;
     color: #fff;
     line-height: 1;
     text-transform: uppercase
@@ -1321,6 +1321,8 @@ hr {
 }
 
 .slider-area .hero-caption .video-icon {
+    padding-top: 30px;
+    padding-bottom: 10px;
     padding-left: 31px
 }
 
@@ -1456,7 +1458,7 @@ hr {
 
 .slider-area .hero-footer {
     position: absolute;
-    bottom: -141px;
+    bottom: -50px;
     right: 50px;
     text-align: right
 }
@@ -3164,6 +3166,7 @@ ul.footer-social li .ins {
     background: linear-gradient(to bottom, rgba(11, 0, 21, 0.7) 0%, rgba(10, 0, 23, 0.48) 25%, rgba(12, 0, 21, 0.42) 32%, rgba(10, 0, 23, 0.38) 36%, rgba(13, 0, 22, 0.32) 43%, rgba(9, 0, 22, 0.31) 44%, rgba(10, 0, 20, 0.29) 46%, rgba(12, 0, 24, 0.26) 50%, rgba(12, 0, 24, 0.25) 51%, rgba(10, 0, 24, 0.3) 54%, rgba(12, 0, 21, 0.33) 56%, rgba(10, 0, 23, 0.39) 60%, rgba(12, 0, 21, 0.42) 62%, rgba(10, 0, 23, 0.48) 66%, rgba(12, 0, 21, 0.51) 68%, rgba(10, 0, 23, 0.57) 72%, rgba(12, 0, 21, 0.6) 74%, #0b0016 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b30b0015', endColorstr='#0b0016', GradientType=0)
 }
+
 
 .sample-text-area {
     padding: 60px 0 70px 0

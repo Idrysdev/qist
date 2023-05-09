@@ -1,35 +1,176 @@
 @extends('layouts.front.index')
+
+@push('styles')
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+@endpush
+
 @section('content')
+
+<style>
+    body{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #c4e538;
+    position: relative;
+    }
+        .automodal{
+        position: absolute;
+        top: 150px;
+        z-index: 2;
+        right: 15%;
+        width: 900px;
+        margin: 0 auto;
+        height: 350px;
+        padding: 2rem;
+        background-color: #fff;
+        border-radius: 10px;
+        display: none;
+    }
+    .automodal .quitter{
+        margin-left: 48rem;
+        display: flex;
+        align-items: center;
+
+    }
+    .automodal .quitter span{
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+    .automodal img{
+
+        /* margin-left: 26rem; */
+        cursor: pointer;
+        height: 3.5vh;
+    }
+    .automodal h1{
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .automodal p{
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-align: justify;
+        color: #636e72;
+    }
+    .automodal button{
+        display: block;
+        margin: 0.5rem auto;
+        padding: 0.5rem;
+        width: 120px;
+        background-color: #c4e538;
+        border: 0px;
+        outline: none;
+    }
+
+.text-clignote{
+   animation-duration: .8s;
+   animation-name: clignoter;
+   animation-iteration-count: infinite;
+   transition: none;
+}
+@keyframes clignoter {
+  0%   { opacity:1; }
+  40%   {opacity:0; }
+  100% { opacity:1; }
+}
+
+
+
+</style>
+
+
 <section class="slider-area">
-    <div class="slider-active">
+
+
+
+
+
+
+    <div class="card automodal">
+        <div class="quitter">
+            <span style="margin-right:3px; font-weight:bold; font-size:15px; ">quitter</span>
+            <img src="{{asset('front/assets/img/icon/exit.png')}}" class="close" />
+        </div>
+        {{-- <div class="card-header">Titre de la partir </div> --}}
+        <div class="card-body mt-7">
+            <p style="font-size: 29px ; text-align:center; padding-top:10px;">Le Ministère de l’Enseignement Supérieur et de la Recherche Scientifique  <strong>( MESRS )</strong>, en collaboration avec L'Université Virtuelle de Côte d'Ivoire <strong>( UVCI )</strong>, vous présente la Qinzaine Internationale de la Science et des Technologies <strong>( QIST ) 2023</strong>. </p>
+            {{-- <p style="font-size: 35px; text-align:center;"> </p> --}}
+    </div>
+
+
+
+
+        {{-- <h1>heading</h1> --}}
+        {{-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eaque quae illum inventore laborum quas,
+            expedita quaerat officia voluptates distinctio blanditiis ad impedit voluptas ipsa quo esse tempore. Iste,
+            officia?</p> --}}
+            {{-- <button type="button">click me</button> --}}
+    </div>
+
+
+
+
+    <div class="slider-active mt-5">
         <div class="single-slider  slider-height hero-overly slider-bg1 d-flex align-items-center">
             <div class="container position-relative">
                 <div class="row">
-                    <div class="col-xxl-5 col-xl-7 col-lg-6 col-md-8 col-sm-10">
+                    <div class="col-xxl-5col-xl-7 col-lg-6 col-md-8 col-sm-10">
                         <div class="hero-caption">
-                            <h1 data-animation="pulse" data-delay=".2s"><span>AKWABA</span> QIST 2023</h1>
+                            <h1 data-animation="pulse" class="animate__backInLeft text-clignote" data-delay=".2s"><span>AKWABA</span> QIST 2023</h1>
+                            <span style="font-size:30px; color:white;">Quinzaine Internationale de la Science et des Technologies</span>
                             {{-- <img src="{{asset('front/assets/img/hero/akwaba.png')}}" width="900" alt=""> --}}
 
                             <div class="video-icon">
-                                <a class="popup-video btn-icon"
+                                {{-- <a class="popup-video btn-icon"
                                     href="https://www.youtube.com/watch?v=up68UAfH0d0"><i
-                                        class="fas fa-play"></i></a>
+                                        class="fas fa-play"></i></a> --}}
+
+                                        <a href="{{asset('VR_finale/index.htm')}}" class="text-clignote btn-icon"><i
+                                            class="fas fa-play"></i></a>
+                                            <p style="font-weight:bold;">STANDS 3D DES UNIVERSITES ET INSTITUTS</p>
+
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="hero-footer">
-                    <h4>05 MAI 2023</h4>
-                    <!-- <p>3968 Carson Street, San Diego, CA 92101</p> -->
+                    <h4 class="">12 MAI 2023</h4>
+                    {{-- <p>3968 Carson Street, San Diego, CA 92101</p> --}}
                     <p>Cérémonie de lancement au Palm Club de 9h30 à 12h 30</p>
-                    <a href="{{asset('uvci_meta/index.htm')}}" class="btn_01">VISITE VIRTUELLE UVCI</a>
+                    <a href="{{ route('universites') }}" class="btn_01">VISITE 3D DES UNIVERSITES ET INSTITUTS PARTENAIRES </a>
+                    {{-- <a href="{{asset('uvci_meta/index.htm')}}" class="btn_01">VISITE 3D DES UNIVERSITES ET INSTITUTS PARTENAIRES </a> --}}
+                    {{-- <a href="{{asset('uvci_meta/index.htm')}}" class="btn_01">VISITE VIRTUELLE UVCI</a> --}}
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+
+
+
+
+
+<script>
+        document.querySelector(".close").addEventListener("click" , function(){
+        document.querySelector(".automodal").style.display = "none";
+    });
+
+    window.addEventListener("load" , function(){D
+        setTimeout(
+            function open(event){
+                document.querySelector(".automodal").style.display = "block";
+            },
+            2000
+        )
+    });
+</script>
+
+{{--
 <section class="count-down-area top-padding">
     <div class="container">
         <div class="row justify-content-between ">
@@ -94,9 +235,9 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
-
+{{--
 @include('partials._participants')
 
 
@@ -436,7 +577,7 @@
     <div id="contact-map" class="contact-map"></div>
 </div>
 
-{{-- partenaies --}}
-@include('partials._partenaires')
+
+@include('partials._partenaires') --}}
 
 @endsection
