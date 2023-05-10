@@ -15,11 +15,9 @@ class FrontController extends Controller
     public function participants(){
         return view('pages.participants');
     }
-
     public function stands(){
         return view('pages.stands');
     }
-
     public function uvci(){
         return view('pages.stands.uvci');
     }
@@ -29,6 +27,10 @@ class FrontController extends Controller
     public function ufhb(){
         return view('pages.stands.ufhb');
     }
+    public function una(){
+        return view('pages.stands.una');
+    }
+
 
 
 }

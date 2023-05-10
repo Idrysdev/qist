@@ -31,5 +31,6 @@ Route::get('/une-stands' , [FrontController::class ,'stands'])->name('participan
 Route::get('/stands-uvci' , [FrontController::class ,'uvci'])->name('participants.uvci.stands');
 Route::get('/stands-ensea' , [FrontController::class ,'ensea'])->name('participants.ensea.stands');
 Route::get('/stands-ufhb' , [FrontController::class ,'ufhb'])->name('participants.ufhb.stands');
+Route::get('/stands-una' , [FrontController::class ,'una'])->name('participants.una.stands');
 
 
