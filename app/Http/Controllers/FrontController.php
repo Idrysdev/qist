@@ -26,6 +26,9 @@ class FrontController extends Controller
     public function ensea(){
         return view('pages.stands.ensea');
     }
+    public function ufhb(){
+        return view('pages.stands.ufhb');
+    }
 
 
 }
