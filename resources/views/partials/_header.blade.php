@@ -8,8 +8,8 @@
                         <div class="logo" style="display:flex; align-items:center;">
                             {{-- <a href="index.html"><img src="assets/img/logo/logo.png" width="200"  alt=""></a> --}}
 
-                            <a href="index.html"><img src="{{asset('front/assets/img/logo/logosalon.png')}}" width="200"  alt=""></a>
-                            <a href="index.html"><img src="{{asset('front/assets/img/logo/logo_uvci.png')}}" width="200"  alt=""></a>
+                            <a href="{{url('/')}}"><img src="{{asset('front/assets/img/logo/logosalon.png')}}" width="200"  alt=""></a>
+                            <a href="https://uvci.edu.ci/"><img src="{{asset('front/assets/img/logo/logo_uvci.png')}}" width="200"  alt=""></a>
                         </div>
                     </div>
                     <div class="col-xl-10 col-lg-10">
@@ -24,8 +24,8 @@
                                     <li>
                                         <div class="header-right-btn f-right  ml-15 d-none d-xl-inline-block">
 
-                                                    <a href="#" class="header-btn text-lg">VIVEZ LA QIST AVEC UN CASQUE VR<i
-                                                        class="ti-arrow-right"></i> </a>
+                                                    {{-- <a href="#" class="header-btn text-lg">VIVEZ LA QIST AVEC UN CASQUE VR<i
+                                                        class="ti-arrow-right"></i> </a> --}}
 
                                                         <a href="#" class="header-btn text-lg">
                                                             VIVEZ LE QIST EN LIVE
