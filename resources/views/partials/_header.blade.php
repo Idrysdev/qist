@@ -34,7 +34,7 @@
                                                         </a> --}}
 
                                                         <a href="#" class="header-btn text-lg">
-                                                            VIVEZ LE QIST EN LIVE
+                                                            VIVEZ LA QIST EN LIVE
                                                             <i
                                                             class="ti-arrow-right"></i>
                                                         </a>
