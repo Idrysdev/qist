@@ -128,8 +128,8 @@
                                     href="https://www.youtube.com/watch?v=up68UAfH0d0"><i
                                         class="fas fa-play"></i></a> --}}
 
-                                        <a href="{{asset('VR_finale/index.htm')}}" class="text-clignote btn-icon"><i
-                                            class="fas fa-play"></i></a>
+                                        <a href="{{ route('participants') }}" class="text-clignote btn-icon"><i class="fas fa-play"></i></a>
+                                        {{-- <a href="{{asset('VR_finale/index.htm')}}" class="text-clignote btn-icon"><i class="fas fa-play"></i></a> --}}
                                             <p style="font-weight:bold;">STANDS 3D DES UNIVERSITES ET INSTITUTS</p>
 
                             </div>

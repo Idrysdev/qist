@@ -12,4 +12,11 @@ class FrontController extends Controller
     public function universites(){
         return view('pages.universite');
     }
+    public function participants(){
+        return view('pages.participants');
+    }
+
+    public function stands(){
+        return view('pages.stands');
+    }
 }

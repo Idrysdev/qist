@@ -24,11 +24,14 @@
                                     <li>
                                         <div class="header-right-btn f-right  ml-15 d-none d-xl-inline-block">
 
-                                                    <a href="{{asset('uvci_meta/index.htm')}}" class="header-btn text-lg">VIVEZ LA QIST AVEC UN CASQUE VR<i
+                                                    <a href="#" class="header-btn text-lg">VIVEZ LA QIST AVEC UN CASQUE VR<i
                                                         class="ti-arrow-right"></i> </a>
 
-                                                        <a href="{{asset('uvci_meta/index.htm')}}" class="header-btn text-lg">VIVEZ LE QIST EN LIVE<i
-                                                            class="ti-arrow-right"></i> </a>
+                                                        <a href="#" class="header-btn text-lg">
+                                                            VIVEZ LE QIST EN LIVE
+                                                            <i
+                                                            class="ti-arrow-right"></i>
+                                                        </a>
                                         </div>
                                     </li>
                                 </ul>

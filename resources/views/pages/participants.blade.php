@@ -5,12 +5,12 @@
 
 <section class="team-area section-padding">
     <div class="container">
-        <h1  class="title" style="text-align:center;margin-bottom:50px; color:orange;">VISITE 3D DES UNIVERSITES</h1>
+        <h1  class="title" style="text-align:center;margin-bottom:50px; color:orange;">LES STANDS EN 3D DES UNIVERSITES ET INSTITUTS</h1>
         <div class="row">
             <div class="col-lg-3">
                 <div class="single-team mb-40">
                     <div class="team-img">
-                        <a href="{{asset('uvci_meta/index.htm')}}">
+                        <a href="{{route('participants.stands')}}">
                             {{-- <img src='https://placehold.it/340x335' alt=''/> --}}
                             <img src="{{asset('front/assets/img/partenaires/13.jpg')}}"  alt=''/>
                         </a>
