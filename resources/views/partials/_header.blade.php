@@ -22,7 +22,8 @@
                                     <li><a href="{{route('universites')}}">Universités</a></li>
                                     <li><a href="{{route('about')}}">Contact</a></li> --}}
                                     <a href="https://www.youtube.com/watch?v=jkYTRjSsdrU" class="header-btn text-lg">
-                                        <i class="fas fa-play"></i>
+                                        C'EST QUOI LE METAVERS ?
+                                        {{-- <i class="fas fa-play"></i> --}}
                                     </a>
                                     <li>
                                         <div class="header-right-btn f-right  ml-15 d-none d-xl-inline-block">

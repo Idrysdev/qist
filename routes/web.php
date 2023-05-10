@@ -26,6 +26,7 @@ Route::get('/contacetr-nous' , [FrontController::class ,'about'])->name('about')
 Route::get('/les-universites-et-institus-en-vue-3d' , [FrontController::class ,'universites'])->name('universites');
 Route::get('/les-stands-en-3d-des-univetsites-et-instituts' , [FrontController::class ,'participants'])->name('participants');
 Route::get('/une-stands' , [FrontController::class ,'stands'])->name('participants.stands');
+Route::get('/coming-soon' , [FrontController::class ,'soon'])->name('comingsoon');
 
 #LISTE DES STANDS
 Route::get('/stands-uvci' , [FrontController::class ,'uvci'])->name('participants.uvci.stands');

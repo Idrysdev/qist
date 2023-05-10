@@ -32,7 +32,7 @@
             <div class="col-lg-3">
                 <div class="single-team mb-40">
                     <div class="team-img">
-                        <a href="{{asset('uvci_meta/index.htm')}}">
+                        <a href="{{ route('comingsoon') }}">
                             {{-- <img src='https://placehold.it/340x335' alt='' /> --}}
                             <img src="{{asset('front/assets/img/partenaires/1.jpg')}}" alt='' />
                         </a>
@@ -55,7 +55,7 @@
             <div class="col-lg-3">
                 <div class="single-team mb-40">
                     <div class="team-img">
-                        <a href="{{asset('uvci_meta/index.htm')}}">
+                        <a href="{{ route('comingsoon') }}">
                             {{-- <img src='https://placehold.it/340x335' alt='' /> --}}
                             <img src="{{asset('front/assets/img/partenaires/2.jpg')}}" alt='' />
                         </a>
@@ -76,7 +76,7 @@
             <div class="col-lg-3">
                 <div class="single-team mb-40">
                     <div class="team-img">
-                        <a href="{{asset('uvci_meta/index.htm')}}">
+                        <a href="{{ route('comingsoon') }}">
                             {{-- <img src='https://placehold.it/340x335' alt='' /> --}}
                             <img src="{{asset('front/assets/img/partenaires/3.jpg')}}" alt='' />
                         </a>
@@ -97,7 +97,7 @@
             <div class="col-lg-3">
                 <div class="single-team mb-40">
                     <div class="team-img">
-                        <a href="{{asset('uvci_meta/index.htm')}}">
+                        <a href="{{ route('comingsoon') }}">
                             {{-- <img src='https://placehold.it/340x335' alt='' /> --}}
                             <img src="{{asset('front/assets/img/partenaires/4.jpg')}}" alt='' />
                         </a>
@@ -118,7 +118,7 @@
             <div class="col-lg-3">
                 <div class="single-team mb-40">
                     <div class="team-img">
-                        <a href="{{asset('uvci_meta/index.htm')}}">
+                        <a href="{{ route('comingsoon') }}">
                             {{-- <img src='https://placehold.it/340x335' alt='' /> --}}
                             <img src="{{asset('front/assets/img/partenaires/5.jpg')}}" alt='' />
                         </a>
@@ -139,7 +139,7 @@
             <div class="col-lg-3">
                 <div class="single-team mb-40">
                     <div class="team-img">
-                        <a href="{{asset('uvci_meta/index.htm')}}">
+                        <a href="{{ route('comingsoon') }}">
                             {{-- <img src='https://placehold.it/340x335' alt='' /> --}}
                             <img src="{{asset('front/assets/img/partenaires/6.jpg')}}" alt='' />
                         </a>
@@ -160,7 +160,7 @@
             <div class="col-lg-3">
                 <div class="single-team mb-40">
                     <div class="team-img">
-                        <a href="{{asset('uvci_meta/index.htm')}}">
+                        <a href="{{ route('comingsoon') }}">
                             {{-- <img src='https://placehold.it/340x335' alt='' /> --}}
                             <img src="{{asset('front/assets/img/partenaires/7.jpg')}}" alt='' />
                         </a>
@@ -181,7 +181,7 @@
             <div class="col-lg-3">
                 <div class="single-team mb-40">
                     <div class="team-img">
-                        <a href="{{asset('uvci_meta/index.htm')}}">
+                        <a href="{{ route('comingsoon') }}">
                             {{-- <img src='https://placehold.it/340x335' alt='' /> --}}
                             <img src="{{asset('front/assets/img/partenaires/8.jpg')}}" alt='' />
                         </a>
@@ -202,7 +202,7 @@
             <div class="col-lg-3">
                 <div class="single-team mb-40">
                     <div class="team-img">
-                        <a href="{{asset('uvci_meta/index.htm')}}">
+                        <a href="{{ route('comingsoon') }}">
                             {{-- <img src='https://placehold.it/340x335' alt='' /> --}}
                             <img src="{{asset('front/assets/img/partenaires/9.jpg')}}" alt='' />
                         </a>
@@ -223,7 +223,7 @@
             <div class="col-lg-3">
                 <div class="single-team mb-40">
                     <div class="team-img">
-                        <a href="{{asset('uvci_meta/index.htm')}}">
+                        <a href="{{ route('comingsoon') }}">
                             {{-- <img src='https://placehold.it/340x335' alt='' /> --}}
                             <img src="{{asset('front/assets/img/partenaires/10.jpg')}}" alt='' />
                         </a>
@@ -244,7 +244,7 @@
             <div class="col-lg-3">
                 <div class="single-team mb-40">
                     <div class="team-img">
-                        <a href="{{asset('uvci_meta/index.htm')}}">
+                        <a href="{{ route('comingsoon') }}">
                             {{-- <img src='https://placehold.it/340x335' alt='' /> --}}
                             <img src="{{asset('front/assets/img/partenaires/11.jpg')}}" alt='' />
                         </a>
@@ -265,7 +265,7 @@
             <div class="col-lg-3">
                 <div class="single-team mb-40">
                     <div class="team-img">
-                        <a href="{{asset('uvci_meta/index.htm')}}">
+                        <a href="{{ route('comingsoon') }}">
                             {{-- <img src='https://placehold.it/340x335' alt='' /> --}}
                             <img src="{{asset('front/assets/img/partenaires/12.jpg')}}" alt='' />
                         </a>

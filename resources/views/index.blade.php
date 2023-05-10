@@ -6,7 +6,6 @@
 @endpush
 
 @section('content')
-
 <style>
     body{
     /* display: flex; */

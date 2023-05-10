@@ -15,6 +15,9 @@ class FrontController extends Controller
     public function participants(){
         return view('pages.participants');
     }
+    public function soon(){
+        return view('pages.comingsoon');
+    }
     public function stands(){
         return view('pages.stands');
     }
