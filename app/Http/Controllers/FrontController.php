@@ -24,7 +24,7 @@ class FrontController extends Controller
         return view('pages.stands.uvci');
     }
     public function ensea(){
-        return view('pages.ensea.uvci');
+        return view('pages.stands.ensea');
     }
 
 

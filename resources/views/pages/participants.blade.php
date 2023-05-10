@@ -284,6 +284,27 @@
                     </div>
                 </div>
             </div>
+            <div class="col-lg-3">
+                <div class="single-team mb-40">
+                    <div class="team-img">
+                        <a href="{{asset('uvci_meta/index.htm')}}">
+                            {{-- <img src='https://placehold.it/340x335' alt=''/> --}}
+                            <img src="{{asset('front/assets/img/partenaires/141.jpg')}}"  alt=''/>
+                        </a>
+                        {{-- <div class="team-social">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fas fa-globe"></i></a></li>
+                            </ul>
+                        </div> --}}
+                    </div>
+                    <div class="team-caption">
+                        <h3><a href="#">UNA</a></h3>
+                        {{-- <p>Localisation</p> --}}
+                    </div>
+                </div>
+            </div>
 
 
         </div>
