@@ -23,4 +23,9 @@ class FrontController extends Controller
     public function uvci(){
         return view('pages.stands.uvci');
     }
+    public function ensea(){
+        return view('pages.ensea.uvci');
+    }
+
+
 }

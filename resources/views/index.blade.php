@@ -138,7 +138,7 @@
                 </div>
 
                 <div class="hero-footer">
-                    <h4 class="">12 MAI 2023</h4>
+                    <h4 class="">11 MAI 2023</h4>
                     {{-- <p>3968 Carson Street, San Diego, CA 92101</p> --}}
                     <p>Cérémonie de lancement au Palm Club de 9h30 à 12h 30</p>
                     <a href="{{ route('universites') }}" class="btn_01">VISITE 3D DES UNIVERSITES ET INSTITUTS PARTENAIRES </a>
