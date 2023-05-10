@@ -19,4 +19,8 @@ class FrontController extends Controller
     public function stands(){
         return view('pages.stands');
     }
+
+    public function uvci(){
+        return view('pages.stands.uvci');
+    }
 }

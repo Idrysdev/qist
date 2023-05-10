@@ -10,7 +10,7 @@
             <div class="col-lg-3">
                 <div class="single-team mb-40">
                     <div class="team-img">
-                        <a href="{{route('participants.stands')}}">
+                        <a href="{{route('participants.uvci.stands')}}">
                             {{-- <img src='https://placehold.it/340x335' alt=''/> --}}
                             <img src="{{asset('front/assets/img/partenaires/13.jpg')}}"  alt=''/>
                         </a>
