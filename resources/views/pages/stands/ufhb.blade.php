@@ -8,6 +8,7 @@
             <iframe width='100%' height='500' src='https://my.matterport.com/show/?m=UJ8XBtF6xWa' frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>
             <iframe width='100%' height='500' src='https://my.matterport.com/show/?m=xUThpf4xWd2' frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>
             <iframe  width='100%' height='500' src='https://my.matterport.com/show/?m=2K5RmgSpiYT' frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>
+            <iframe width='100%' height='500' src='https://my.matterport.com/show/?m=c4YS4V6ftsd' frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>
         </div>
     </section>
 
