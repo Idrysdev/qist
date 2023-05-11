@@ -2,10 +2,6 @@
 @section('content')
 
 
-<section class="team-area section-padding">
-    @extends('layouts.front.index')
-    @section('content')
-
 
     <section class="team-area section-padding">
         <div class="container">
@@ -15,8 +11,7 @@
         </div>
     </section>
 
-    @endsection
-
-</section>
-
 @endsection
+
+
+
