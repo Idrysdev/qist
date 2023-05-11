@@ -6,6 +6,7 @@
         <div class="container">
 
             <iframe width='100%' height='500' src='https://my.matterport.com/show/?m=MdjiSBRt5nT' frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>
+            <iframe width='100%' height='500' src='https://my.matterport.com/show/?m=XLtDpqDEoY4' frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>
 
         </div>
     </section>

@@ -34,7 +34,7 @@
                                                             <i class="fas fa-play"></i>
                                                         </a> --}}
 
-                                                        <a href="#" class="header-btn text-lg">
+                                                        <a href="{{asset('VR_finale/index.htm')}}" class="header-btn text-lg">
                                                             VIVEZ LA QIST EN LIVE
                                                             <i
                                                             class="ti-arrow-right"></i>
